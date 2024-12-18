@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+    background: linear-gradient(rgba(255,0,0,0),rgba(0,0,0,1)),url(media/OIG2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 60px;
+}
+
+nav{
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navlink ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navlink ul li{
+    list-style: none;
+}
+
+.navlink ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+.navlink ul li a:hover{
+    padding: 20px;
+    background-color: rgb(5, 178, 5);
+    color: white;
+}
+
+.text1{
+    font-size: 20px;
+    position: relative;
+    top: 70vh;
+    left: 20vh;
+    color: greenyellow;
+}
